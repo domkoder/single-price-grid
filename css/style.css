@@ -1,0 +1,118 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main styling */
+html,
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  background: hsl(204, 43%, 93%);
+}
+
+li {
+  color: white;
+  line-height: 1.5rem;
+}
+
+main {
+  max-width: 375px;
+  margin: auto;
+  padding: 2.5rem 1.5rem;
+}
+
+h1,
+h3 {
+  padding: 1.5rem 0;
+  font-size: 1.3rem;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  overflow: auto;
+  padding: 0 1.3rem;
+}
+.btn {
+  width: 100%;
+  padding: 15px;
+  color: white;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 5px;
+  background: hsl(71, 73%, 54%);
+  margin-top: 2rem;
+}
+
+.l-heading {
+  text-align: left;
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+}
+
+/* Intro */
+#intro {
+  height: 260px;
+  background: white;
+  border-radius: 5px 5px 0 0;
+}
+
+.intro-info {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+}
+
+.intro-content {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.6rem;
+  text-align: left;
+  font-size: 15px;
+  padding-bottom: 1rem;
+}
+
+/* Monthly Subscription */
+.monthly-sub {
+  height: 260px;
+  background: hsl(179, 62%, 43%);
+  color: white;
+}
+
+.monthly-sub span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.monthly-sub small {
+  margin-bottom: 10px;
+}
+
+.monthly-sub .sub-info {
+  font-size: 15px;
+  padding: 0.5rem;
+}
+
+/* Why us */
+.why-us {
+  height: 260px;
+  background: hsl(179, 47%, 52%);
+  border-radius: 0 0 5px 5px;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
